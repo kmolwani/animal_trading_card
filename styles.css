@@ -1,0 +1,52 @@
+/* add your CSS here */
+#body {
+  border: solid;
+  border-radius: 5px;
+  border-width: thin;
+  border-color: #ccc;
+  width: 350px;
+  background: #A0B2D9;
+  /* offset-x | offset-y | blur-radius | color */
+  box-shadow: 10px 10px 10px silver;
+  /* font-family: arial, sans-serif; */
+}
+
+h3 {
+  /* margin: top | right | bottom | left */
+  margin: 10px auto 10px 25px;
+}
+
+img {
+  border: solid;
+  border-radius: 5px;
+  border-width: thin;
+  border-color: #ccc;
+  width: 300px;
+  height: 200px;
+  /* padding: 10px; */
+  margin: 10px auto 10px 25px;
+}
+
+#animal_information {
+  border: solid;
+  border-radius: 5px;
+  border-width: thin;
+  border-color: #ccc;
+  padding: 10px 10px 10px 10px;
+  width: 300px;
+  box-sizing: border-box;
+  margin: 10px auto 20px 25px;
+}
+
+.interesting_fact {
+  font-style: italic;
+}
+
+.list_items {
+  list-style-type: none;
+  padding: 0px;
+}
+
+span {
+  font-weight: bold;
+}
